@@ -143,5 +143,3 @@ if st.button("Generate SWOT Analysis"):
         st.pyplot(fig)
     else:
         st.warning("No valid SWOT data extracted. Please check the AI response format.")
-
-
