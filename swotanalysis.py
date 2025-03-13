@@ -7,7 +7,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Load Gemini API Key from environment variable
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+gemini_api_key = "AIzaSyC4507Qme9gYeii4dqWk2At7ssb2x6wziY"
 if not gemini_api_key:
     st.error("GEMINI_API_KEY not found. Please set it in your environment variables.")
     st.stop()
